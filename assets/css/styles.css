@@ -138,6 +138,7 @@ iframe {
   margin-top: 0;
   margin-bottom: 15px;
 }
+/* 
 .header .profile-content .social a {
   background: #b0b7bf;
   width: 36px;
@@ -161,6 +162,8 @@ iframe {
   font-size: 20px;
   padding-top: 8px;
 }
+ */
+
 /* ======= Sections======= */
 .sections-wrapper {
   padding-top: 60px;
@@ -487,6 +490,30 @@ iframe {
 .credits .btn {
   margin-bottom: 15px;
 }
+/* Find me elsewhere - Social Networks section */
+.content .social a {
+  background: #b0b7bf;
+  width: 36px;
+  height: 36px;
+  display: inline-block;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  color: #fff;
+  text-align: center;
+}
+.content .social a:hover {
+  background: #778492;
+}
+.content .social a .fa {
+  font-size: 20px;
+  padding-top: 8px;
+}
 /* ======= Footer ======= */
 .footer {
   background: #32383e;
@@ -534,6 +561,8 @@ iframe {
     width: 1360px;
   }
 }
+
+
 /* ======= Slideshow ======= */
 * {box-sizing:border-box}
 
