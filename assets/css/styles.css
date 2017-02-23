@@ -491,7 +491,7 @@ iframe {
   margin-bottom: 15px;
 }
 /* Find me elsewhere - Social Networks section */
-.content .social a {
+.content .social a .fa{
   background: #b0b7bf;
   width: 36px;
   height: 36px;
@@ -507,13 +507,44 @@ iframe {
   color: #fff;
   text-align: center;
 }
-.content .social a:hover {
+.content .social a .fa:hover {
   background: #778492;
 }
 .content .social a .fa {
   font-size: 20px;
   padding-top: 8px;
 }
+/*Research Gate*/
+.content .social a .RG{
+/*   background: #fff; */
+  width: 36px;
+  height: 36px;
+  display: inline-block;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box; */
+  background-clip: padding-box;
+/*   color: #fff; */
+  text-align: center;
+  margin-top: -5px;
+}
+/* Zoom In #1 */
+.content .social a .RG{
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.content .social a .RG:hover{
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+
 /* ======= Footer ======= */
 .footer {
   background: #32383e;
