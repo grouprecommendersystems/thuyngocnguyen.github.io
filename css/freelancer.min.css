@@ -10,6 +10,7 @@
  	font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
  	text-transform:uppercase;font-weight:700
  }
+ li{font-size:16px}
  hr.star-light,hr.star-primary{
  	padding:0;
  	border:none;
